@@ -150,7 +150,7 @@ func (listener *OssProgressListener) ProgressChanged(event *oss.ProgressEvent) {
 
 func bucketo() *oss.Bucket  {
 	// 创建OSSClient实例。
-	client, err := oss.New("oss-cn-shanghai.aliyuncs.com", "LTAIQmryKSgUlckt", "TG4sTbgmeXu7i5SUQ9UTfARpsCjCSw")
+	client, err := oss.New("xxx", "xxx", "xxx")
 	if err != nil {
 		fmt.Println("Error:", err)
 		os.Exit(-1)
